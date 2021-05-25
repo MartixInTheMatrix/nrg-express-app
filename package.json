@@ -1,0 +1,23 @@
+{
+  "name": "nrg-express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chart.js": "^3.2.1",
+    "discord.js": "^12.5.3",
+    "discord.js-menu": "^2.3.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "quickchart-js": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "Martix",
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+ <head>  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<iframe style="display: none" name="dummyframe" id="dummyframe"></iframe>
+
+<h2 id="s-title" name="guildname">Stats de <b> {{ guildname }} </b></h2>
+
+<div class="left">
+    <div class="card text-white bg-dark mb-3">
+        <h4>Messages par rapport au temps</h4>
+        <ul>
+            <li><b>{{ tmsgem }} messages</b> en une semaine</li>
+            <li><b>{{ msgparj }} messages / jours</b></li>
+            
+        </ul>
+    </div>
+    <div class="card text-white bg-dark mb-3">
+        <img src="{{ chartmsg }}">
+        <p>Les statistiques montrent qu'il y a eu <b> {{ tmsgem }}</b> messages en une semaine, soit <b>{{ msgparj }}</b> messages par jour</p>
+    </div>
+
+    <img src="{{ chartmb }}">
+    <p>Il y a {{ admins }} admins, {{ bots }} bots et {{ membres }} utilisateurs sur le serveur</p>
+</div>
+<div class="right">
+<div class="card text-white bg-dark mb-3">
+    <img src="{{ chartmt }}">
+    <p><b> {{ etm }}</b> membres ont rejoint {{ guildname }} en une semaine, soit <b>{{ mbparj }}</b> membres par jour</p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
