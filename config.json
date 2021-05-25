@@ -2,6 +2,6 @@
     "token": "bot token",
     "ws": {
         "port": 5665,
-        "token": "123456"
+        "token": "password"
     }
 }
