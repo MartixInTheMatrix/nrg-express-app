@@ -8,8 +8,8 @@ const QuickChart = require('quickchart-js');
 
 
 module.exports.run = async (client, message, args, guild) => {
-
-
+    
+//faites votre vie la
 }
 module.exports.help = {
     name: 'panel'
