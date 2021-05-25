@@ -10,14 +10,6 @@ var today = new Date();
 
 
 module.exports = async(client, message) => {
-        setInterval(() => {
-            client.user.setActivity(`MAINTENANCE`, {
-                status: "online"
-              })
-        }, 20000);
-        console.log('Bot connecté avec succès')
-
-
 
 }
 
